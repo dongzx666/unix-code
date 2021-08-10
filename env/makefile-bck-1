@@ -1,0 +1,3 @@
+CC=gcc
+CFLAGS+=-D_FIlE_OFFSET_BITS=64 -D_XOPEN_SOURCE -Wall -Werror
+LDFLAGS+=-lcrypt
